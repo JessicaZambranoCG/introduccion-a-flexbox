@@ -1,8 +1,21 @@
 .container{
+    background-color: rgb(197, 245, 197);
+    border: 4px solid green;
+    padding: 16px;
+    margin: 16px;
+    width: 900px;
+    gap: 10px 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 3;
+}
+
+.container1{
     background-color: lightblue;
     padding: 16px;
     border: 4px solid blue;
     margin: 8px;
+    margin-bottom: 16px;
     display: flex;
     gap: 10px;
 }
@@ -10,15 +23,15 @@
 .item{
     background-color: peachpuff;
     border: 4px solid salmon;
-    height: 48px;
+    height: 50px;
     flex: 1;
     padding: 4px;
 }
 
-.first-item{
+.second-item{
     background-color: peachpuff;
     border: 4px solid salmon;
-    height: 48px;
+    height: 50px;
     flex: 1;
     padding: 4px;
     display:flex;
@@ -28,5 +41,83 @@
     background-color: pink;
     border: 4px solid red;
     flex: 1;
+}
+
+.container2{
+    margin: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.itemleft{
+    background-color: pink;
+    border: 4px solid brown;
+    flex-wrap: wrap;
+    padding: 4px;
+    width: 450px;
+    height: 200px;
+
+}
+
+.container3{
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.itemrigth{
+    background-color: pink;
+    border: 4px solid brown;
+    flex: 1;
+    padding: 4px;
+    width: 415px;
+    height: 200px;
+    order: 2;
+    flex-grow: 2;
+}
+
+
+.container4{
+    background-color: lightblue;
+    padding: 8px;
+    border: 4px solid blue;
+    margin: 8px;
+    margin-top: 16px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+
+.item2{
+    background-color: #EBDEF0 ;
+    border: 4px solid #9B59B6;
+    height: 50px;
+    flex: 1;
+    padding: 4px;
+}
+
+.item3{
+    background-color: peachpuff;
+    border: 4px solid salmon;
+    height: 50px;
+    width: 130px;
+    padding: 4px;
+}
+
+.item4{
+    background-color: peachpuff;
+    border: 4px solid salmon;
+    height: 50px;
+    width: 130px;
+    padding: 4px;
+}
+
+.item5{
+    background-color: #EBDEF0;
+    border: 4px solid #9B59B6;
+    height: 50px;
+    flex: 1;
+    padding: 4px;
 }
 
